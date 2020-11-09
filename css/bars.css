@@ -1,0 +1,12 @@
+/* Bar height */
+.bar-height {
+    height: 3px;
+}
+
+/* Bootstrap-like color selectors */
+.bg-cozy {
+    background-color: #ea77ad !important; /* Not a Bootstrap selector */
+}
+.text-cozy {
+    color: #ea77ad !important; /* Not a Bootstrap selector */
+}

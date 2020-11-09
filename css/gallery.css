@@ -1,0 +1,10 @@
+.image-container {max-width: 1440px;}
+
+@media (min-width: 576px) {
+    #gallery img {width: 50% !important;}
+    .image-container {flex-direction: row !important;}
+}
+@media (min-width: 1024px) {
+    #gallery img {width: 25% !important;}
+    .image-container {flex-direction: row !important;}
+}

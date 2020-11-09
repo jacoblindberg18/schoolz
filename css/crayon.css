@@ -1,0 +1,36 @@
+.crayon {
+    --crayon-height: 0.85rem;
+    --crayon-width: 4rem;
+    --crayon-color: #237449;
+    --crayon-paper-color: rgba(41,237,133,0.6);
+    --crayon-line-color: #237449;
+    --crayon-shadow-color: rgba(0,0,0,0.3);
+
+    height: var(--crayon-height);
+    width: var(--crayon-width);
+
+    /* Background */
+    background: var(--crayon-color);
+    box-shadow: 2px 2px 3px var(--crayon-shadow-color);
+
+    background-image: 
+    /* 3rd shadow at the bottom */
+    linear-gradient(to bottom, transparent 62%, var(--crayon-shadow-color) 100%),
+
+    /* Half circle in the middle at the top */
+    radial-gradient(ellipse at top, var(--crayon-line-color) 25%, transparent 24%),
+
+    /* Vertical lines left side */
+    linear-gradient(to right, transparent 14%, var(--crayon-line-color) 14%, var(--crayon-line-color) 17%, transparent 17%),
+
+    linear-gradient(to right, transparent 20%, var(--crayon-line-color) 20%, var(--crayon-line-color) 23%, transparent 23%),
+
+    /* Vertical lines right side */
+    linear-gradient(to left, transparent 14%, var(--crayon-line-color) 14%, var(--crayon-line-color) 17%, transparent 17%),
+
+    linear-gradient(to left, transparent 20%, var(--crayon-line-color) 20%, var(--crayon-line-color) 23%, transparent 23%),
+
+    /* Crayon paper */
+    linear-gradient(to right, transparent 8%, var(--crayon-paper-color) 8%, var(--crayon-paper-color) 92%, transparent 92%)
+    ;
+}

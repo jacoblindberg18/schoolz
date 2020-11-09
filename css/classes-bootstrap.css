@@ -1,0 +1,27 @@
+/* Padding */
+.p-4 {padding: 1.5rem !important;}
+
+/* Margins */
+.mb-2, .my-2 {margin-bottom: 0.5rem !important;}
+.mt-2, .my-2 {margin-top: 0.5rem !important;}
+
+/* CTA Buttons */
+.btn-lg, .btn-group-lg > .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+/* Text uppercase */
+.text-uppercase {text-transform: uppercase !important;}
+
+/* Font weight bold */
+.font-wight-bold {font-weight: 700;}
+
+@media (min-width: 576px) {
+    .flex-sm-row {
+        -ms-flex-direction: row !important;
+        flex-direction: row !important;
+    }
+}
